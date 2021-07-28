@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #214E41;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.container {
+    margin-bottom: 15px;
+    max-width: 1440px;
+    padding: 15px;
+    }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    color:#214E41;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+
+.request {
+    padding: 10px 20px ;
+    text-decoration: none;
+    display: inline-block;
+    background: #43806C;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.image {
+    background: url("../images/photo.jpg");
+    border-radius: 0px;
+    height: 720px;
+    width: 1440px;
+    margin-bottom: 173px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.heading {
+   width: 500px;
+   height: 200px;
+
+}
+
+.intro {
+    
+    position: absolute;
+    top: 220px;
+    left: 90px;
+        display: flex;
+    flex-direction: column;
+    
+}
+
+
+.info {
+    font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.container1 {
+    width: 1200px;
+    height: 432px;
+}
+.chartheading {
+    width: 450px;
+    height: content;
+    margin-bottom: 34px;
+}
+
+.charttext {
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.05000000074505806px;
+    text-align: left;
+    text-transform: uppercase;
+    color:#43806C;
+    margin-bottom: 20px;
+}
+
+.charttext1 {
+    color:#757575;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.019999999552965164px;
+    text-align: left;
+    width: 500px;
+    height: content;
+    margin-bottom: 26px;
+}
+
+.charttext2 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.019999999552965164px;
+    text-align: left;
+    border-bottom: 3px solid #214E41;     
+    padding-bottom: 15px;
+    display: inline; 
+        
+}
+
+.chartinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 120px;
+    }
+
+.container2 {
+    width: 1200px;
+    height: 171px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 120px;
+    top: 712px;
+    background-color: #fff;
+}
+
+.list-item {
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.intro-list {
+    display: block;
+    float:left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.list {
+    display: inline-block;
+    width: 300px;
+    height: 71px;
+}
+
+.row1 {
+    padding: 50px;
+}
