@@ -89,7 +89,7 @@ html {
 }
 
 .first-section__text {
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 16px;
 font-weight: 700;
 line-height: 150%;
@@ -119,7 +119,7 @@ line-height: 150%;
 }
 
 .item__title {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;    
     line-height: 150%;
     margin: 0 0 10px;
@@ -127,72 +127,67 @@ line-height: 150%;
 
 
 .item__text {
-
     color:#757575;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 143%;
 }
 
-.charttext2 {
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0.019999999552965164px;
-    text-align: left;
-    border-bottom: 3px solid #214E41;     
-    padding-bottom: 15px;
-    display: inline; 
-        
+/* why-section */
+
+.why-section {
+    padding: 97px 0;
 }
 
-.chartinfo {
+.why-section__row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    left: 120px;
-    }
-
-.container2 {
-    width: 1200px;
-    height: 171px;
-    left: 0px;
-    top: 0px;
-    border-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    position: absolute;
-    left: 120px;
-    top: 712px;
-    background-color: #fff;
+}
+.why-section__content {    
+    width: 43%; 
+    padding: 0 0 0 58px;
 }
 
-.list-item {
-font-family: Raleway;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-
+.why-section__top {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 154%;
+    text-transform: uppercase;
+    letter-spacing: 0.05px;
+    color: #43806C;
+    margin: 0 0 20px;
 }
 
-.intro-list {
-    display: block;
-    float:left;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    
+.why-section__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 128%;
+    margin: 0 0 30px;
 }
 
-.list {
+.why-section__description {
+    font-family: 'Raleway', sans-serif;    
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02px;
+    color: #757575;
+    margin: 0 0 40px;
+}
+
+.why-section__link {
     display: inline-block;
-    width: 300px;
-    height: 71px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #214E41;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.02px; 
+    color:#214E41;   
+    line-height: 32px;
+}
+.why-section__link:visited {
+    color:#214E41;
 }
 
-.row1 {
-    padding: 50px;
-}
+.why-section__img {}   
