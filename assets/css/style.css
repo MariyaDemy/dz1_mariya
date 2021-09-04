@@ -190,4 +190,60 @@ line-height: 150%;
     color:#214E41;
 }
 
-.why-section__img {}   
+.why-section__img {} 
+
+/* benefits-section */
+
+.benefits {
+    padding: 122px 0;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #E3EEED 50%, #214E41 50%);
+}
+
+.benefits__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.benefits__left-content {
+    width: 50%;
+    padding: 0 0 0 1px;
+}
+
+.benefits__right-content {
+    width: 50%;
+}
+
+.benefits__top {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.benefits__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 131%;
+    margin: 0 0 18px;
+}
+
+.benefits__text {
+    font-size: 32px;
+    line-height: 131%;
+    color: #43806C;
+    margin: 0 0 18px;
+}
+
+.benefits__desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0.02px;
+    color: #fff;
+    padding: 40px 0 0 99px;
+    
+}
